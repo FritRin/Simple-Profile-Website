@@ -17,4 +17,38 @@
             <li><a href="contact.html">Contact Me</a></li>
         </ul>
     </nav>
+    <h1>Contact Form</h1>
+    <form>
+        <label for="fnBox">First Name*</label>
+        <input name="firstName" id="fnBox" type="text" required/>
+
+        <label for="lnBox">Last Name*</label>
+        <input name="lastName" id="lnBox" type="text" required/>
+
+        <label for="mailBox">Email*</label>
+        <input name="email" id="mailbox" type="text" required/>
+
+        <label for="mailSubject">Subject</label>
+        <input name="subject" id="mailSubject" type="text" list="subjectList">
+        <datalist id="subjectList">
+            <option value="placeholder1" />
+        </datalist>
+
+        <label for="mailMessage">Message*</label>
+        <textarea name="message" id="mailMessage" type="text" required></textarea>
+
+        <label for="telephone">Phone Number*</label>
+        <input name="phoneNumber" id="telephone" type="tel" placeholder="0412-345-678"
+        pattern="[0-9]{4}-[0-9]{3}-[0-9]{4}" required/>
+
+        <p>Preferred Contatct*</p>
+        <label for="contactPref">
+            <input type="radio" name="contactPref" value="Email" required/>
+            Email
+        </label>
+        <label for="contactPref">
+            <input type="radio" name="contactPref" value="Phone"/>
+            Phone
+        </label>
+    </form>
 </body>
