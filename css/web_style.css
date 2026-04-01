@@ -1,0 +1,90 @@
+@charset "utf-8";
+
+/* Styles */
+
+@font-face {
+    font-family: 'Quicksand', sans-serif;
+    src: url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+    font-weight: 300;
+}
+
+html{
+    background: rgb(250, 205, 248);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 100%;
+}
+
+body{
+    background-color: rgb(250, 205, 248);
+    box-shadow: rgb(51, 51, 51) 10px 0px 20px, rgb(51, 51, 51) -10px 0px 20px;
+    border-left: 2px solid rgb(106, 38, 128);
+    border-right: 2px solid rgb(106, 38, 128);
+    border-bottom: 2px solid rgb(106, 38, 128);
+    min-height: 100%;
+    margin: 0px auto;
+    min-width: 320px;
+    max-width: 1024px;
+    width: 100%;
+}
+
+header nav ul{
+    background-color: rgb(255, 187, 224);
+    border-bottom: 3px solid rgb(221, 216, 184);
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    padding: 5px 20px;
+    margin: 0; 
+}
+
+header nav ul li{
+    font-size: 2em;
+}
+
+header nav ul li a{
+    color: rgb(91, 192, 235);
+    width: 100%;
+}
+
+header nav ul li a:hover{
+    color: aliceblue;
+    background-color: rgb(106, 38, 128);
+}
+
+h1{
+    color: rgb(106, 38, 128);
+    font-weight: normal;
+    font-size: 1.5em;
+    font-style: oblique;
+    font-weight: bold;
+    letter-spacing: 0.03em;
+    line-height: 1.2em;
+    margin-bottom: 15px;
+}
+
+h2{
+    color: rgb(106, 38, 128);
+    font-weight: normal;
+    font-size: 1.2em;
+    font-style: oblique;
+    font-weight: bold;
+    letter-spacing: 0.03em;
+    line-height: 1.2em;
+    margin-bottom: 15px;    
+}
+
+p{
+    color: rgb(106, 38, 100);
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+article{
+    background-color: rgb(221, 200, 184);
+    border-left: 2px solid rgb(106, 38, 128);
+    border-right: 2px solid rgb(106, 38, 128);
+    border-bottom: 1px solid rgb(106, 38, 128);
+    border-top: 1px solid rgb(106, 38, 128);
+    min-height: 100%;
+    margin: 0px auto;
+}
